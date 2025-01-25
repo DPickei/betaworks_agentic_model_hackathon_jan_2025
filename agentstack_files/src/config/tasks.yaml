@@ -1,0 +1,16 @@
+hello_world:
+  description: >-
+    As is tradition in software, let's start by saying 'Hello, World!'. Then, pick
+    one or two tasks that they should try to do next with AgentStack.
+  expected_output: >-
+    The sentence Hello, World! followed by two things the user should try to customize
+    their agent further.
+  agent: >-
+    alex
+notify_user:
+  description: >-
+    notify the user about anything you want to tell them, in the form of a text message to get their attention 
+  expected_output: >-
+    None
+  agent: >-
+    acc_partner
